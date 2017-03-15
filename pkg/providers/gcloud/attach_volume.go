@@ -1,7 +1,7 @@
 package gcloud
 
 import (
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 )
 
 func (p *GcloudProvider) AttachVolume(id, instanceId, mntPoint string) error {

@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/containers"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/containers"
 	"github.com/pborman/uuid"
 )
 

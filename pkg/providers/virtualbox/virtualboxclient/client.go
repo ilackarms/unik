@@ -3,9 +3,9 @@ package virtualboxclient
 import (
 	"fmt"
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/config"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/config"
+	"github.com/ilackarms/unik/pkg/types"
 	"os/exec"
 	"path"
 	"path/filepath"

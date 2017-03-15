@@ -2,7 +2,7 @@
 
 package qemu
 
-import "github.com/emc-advanced-dev/pkg/errors"
+import "github.com/ilackarms/pkg/errors"
 
 func (p *QemuProvider) StopInstance(id string) error {
 

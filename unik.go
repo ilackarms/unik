@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/unik/cmd"
+	"github.com/ilackarms/unik/cmd"
 )
 
 func main() {

@@ -12,10 +12,10 @@ import (
 
 	"net/url"
 
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/config"
-	"github.com/emc-advanced-dev/unik/pkg/daemon"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/config"
+	"github.com/ilackarms/unik/pkg/daemon"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 )
 
 var daemonRuntimeFolder, daemonConfigFile, logFile string
@@ -110,7 +110,7 @@ func readDaemonConfig() error {
 	data, err := ioutil.ReadFile(daemonConfigFile)
 	if err != nil {
 		errMsg := fmt.Sprintf("failed to read daemon configuration file at " + daemonConfigFile + `\n
-		See documentation at http://github.com/emc-advanced-dev/unik for creating daemon config.'`)
+		See documentation at http://github.com/ilackarms/unik for creating daemon config.'`)
 		return errors.New(errMsg, err)
 	}
 	if err := yaml.Unmarshal(data, &daemonConfig); err != nil {

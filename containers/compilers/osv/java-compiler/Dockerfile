@@ -17,7 +17,7 @@ ENV GOBIN=$GOPATH/bin
 ENV PATH=$GOBIN:/usr/local/go/bin:$PATH
 
 RUN mkdir -p $GOPATH/src/github.com/cloudius-systems
-RUN cd $GOPATH/src/github.com/cloudius-systems && git clone https://github.com/emc-advanced-dev/capstan
+RUN cd $GOPATH/src/github.com/cloudius-systems && git clone https://github.com/ilackarms/capstan
 RUN cd $GOPATH/src/github.com/cloudius-systems/capstan && ./install
 
 RUN capstan pull cloudius/osv-openjdk8

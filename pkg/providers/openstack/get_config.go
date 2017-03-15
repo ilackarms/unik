@@ -1,7 +1,7 @@
 package openstack
 
 import (
-	"github.com/emc-advanced-dev/unik/pkg/providers"
+	"github.com/ilackarms/unik/pkg/providers"
 )
 
 func (p *OpenstackProvider) GetConfig() providers.ProviderConfig {

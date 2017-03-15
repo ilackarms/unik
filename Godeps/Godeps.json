@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/emc-advanced-dev/unik",
+	"ImportPath": "github.com/ilackarms/unik",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v63",
 	"Packages": [
@@ -262,7 +262,7 @@
 			"Rev": "c8e8be847850298e8d771c5b501c32f505a875b8"
 		},
 		{
-			"ImportPath": "github.com/emc-advanced-dev/pkg/errors",
+			"ImportPath": "github.com/ilackarms/pkg/errors",
 			"Rev": "bb66dbd3628125f64907fba4905e47c8ead41436"
 		},
 		{

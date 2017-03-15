@@ -1,8 +1,8 @@
 package openstack
 
 import (
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func (p *OpenstackProvider) GetVolume(nameOrIdPrefix string) (*types.Volume, error) {

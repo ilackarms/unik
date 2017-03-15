@@ -10,9 +10,9 @@ ENV PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 RUN go get -u github.com/jteeuwen/go-bindata/...
 
-RUN mkdir -p $GOPATH/src/github.com/emc-advanced-dev/
-WORKDIR $GOPATH/src/github.com/emc-advanced-dev/unik
+RUN mkdir -p $GOPATH/src/github.com/ilackarms/
+WORKDIR $GOPATH/src/github.com/ilackarms/unik
 
-COPY ./ $GOPATH/src/github.com/emc-advanced-dev/unik
+COPY ./ $GOPATH/src/github.com/ilackarms/unik
 
 CMD make -e TARGET_OS=${TARGET_OS} localbuild && mv ./unik /opt/build/unik

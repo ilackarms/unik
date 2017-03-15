@@ -1,6 +1,6 @@
 package ukvm
 
-import "github.com/emc-advanced-dev/pkg/errors"
+import "github.com/ilackarms/pkg/errors"
 
 func (p *UkvmProvider) DetachVolume(id string) error {
 

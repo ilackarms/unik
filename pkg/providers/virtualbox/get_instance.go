@@ -1,8 +1,8 @@
 package virtualbox
 
 import (
-	"github.com/emc-advanced-dev/unik/pkg/providers/common"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/providers/common"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func (p *VirtualboxProvider) GetInstance(nameOrIdPrefix string) (*types.Instance, error) {

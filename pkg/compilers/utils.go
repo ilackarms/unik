@@ -7,10 +7,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 
-	unikos "github.com/emc-advanced-dev/unik/pkg/os"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	unikos "github.com/ilackarms/unik/pkg/os"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 )
 
 func BuildBootableImage(kernel, cmdline string, usePartitionTables, noCleanup bool) (string, error) {

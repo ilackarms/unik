@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 
-	"github.com/emc-advanced-dev/unik/pkg/types"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	"github.com/ilackarms/unik/pkg/types"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 )
 
 func execContainer(imageName string, cmds []string, binds map[string]string, privileged bool, env map[string]string) error {

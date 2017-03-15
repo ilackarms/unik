@@ -4,8 +4,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"path/filepath"
 
-	"github.com/emc-advanced-dev/unik/pkg/config"
-	"github.com/emc-advanced-dev/unik/pkg/state"
+	"github.com/ilackarms/unik/pkg/config"
+	"github.com/ilackarms/unik/pkg/state"
 	"github.com/rackspace/gophercloud"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/emc-advanced-dev/unik/pkg/compilers"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/compilers"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func CreateImageXen(kernel, args string, mntPoints, bakedEnv []string, noCleanup bool) (*types.RawImage, error) {

@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/types"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/types"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 	"github.com/vmware/govmomi"
 	"github.com/vmware/govmomi/find"
 	"golang.org/x/net/context"

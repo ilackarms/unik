@@ -2,11 +2,11 @@ package vsphere
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/providers/common"
-	"github.com/emc-advanced-dev/unik/pkg/providers/vsphere/vsphereclient"
-	"github.com/emc-advanced-dev/unik/pkg/types"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/providers/common"
+	"github.com/ilackarms/unik/pkg/providers/vsphere/vsphereclient"
+	"github.com/ilackarms/unik/pkg/types"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 	"time"
 )
 

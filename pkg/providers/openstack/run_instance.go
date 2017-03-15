@@ -2,8 +2,8 @@ package openstack
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/types"
 	"github.com/rackspace/gophercloud"
 	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
 	"time"

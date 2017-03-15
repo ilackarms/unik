@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/unik/pkg/compilers"
-	unikos "github.com/emc-advanced-dev/unik/pkg/os"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/compilers"
+	unikos "github.com/ilackarms/unik/pkg/os"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func CreateImageQemu(kernel string, args string, mntPoints, bakedEnv []string, noCleanup bool) (*types.RawImage, error) {

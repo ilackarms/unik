@@ -16,7 +16,7 @@ Ensure that each of the following are installed
 #### Install, configure, and launch UniK
 1. Install UniK
   ```
-  $ git clone https://github.com/emc-advanced-dev/unik.git
+  $ git clone https://github.com/ilackarms/unik.git
   $ cd unik
   $ make binary
   ```
@@ -104,7 +104,7 @@ Ensure that each of the following are installed
   	],
   	"Deps": [
   		{
-  			"ImportPath": "github.com/emc-advanced-dev/unik/docs/examples",
+  			"ImportPath": "github.com/ilackarms/unik/docs/examples",
   			"Rev": "f8cc0dd435de36377eac060c93481cc9f3ae9688"
   		}
   	]

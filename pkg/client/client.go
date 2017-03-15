@@ -3,7 +3,7 @@ package client
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 	"github.com/layer-x/layerx-commons/lxhttpclient"
 	"net/http"
 	"net/url"

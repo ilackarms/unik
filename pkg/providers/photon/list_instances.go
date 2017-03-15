@@ -1,9 +1,9 @@
 package photon
 
 import (
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func (p *PhotonProvider) ListInstances() ([]*types.Instance, error) {

@@ -21,7 +21,7 @@
 * Added optional Runtime Args to Rump compilers based on Nodejs, Python, and Java; these are for arguments passed to the interpreter/runtime for a language before the application is run; i.e. inserting the `-Dsome.property=value` running `java -Dsome.property=value -jar myapp.jar` is now supported
 
 ## Mon Aug 22 2016
-* Configure http://hub.project-unik.io as a public repository for uploadable UniK unikernels. Providers that use local storage (Xen, Virtualbox, QEMU) now support `unik pull` & `unik push` as command-line options allowing users to store and share unikernel images in public (or private) repositories. Source for deploying a private hub can be found here: https://github.com/emc-advanced-dev/unik-hub
+* Configure http://hub.project-unik.io as a public repository for uploadable UniK unikernels. Providers that use local storage (Xen, Virtualbox, QEMU) now support `unik pull` & `unik push` as command-line options allowing users to store and share unikernel images in public (or private) repositories. Source for deploying a private hub can be found here: https://github.com/ilackarms/unik-hub
 
 ## Tue Aug 16 2016
 * Add support for local Xen provider. Supports Rump and OSv unikernels at current time. Persistent (data) volumes are still a TODO on Xen.

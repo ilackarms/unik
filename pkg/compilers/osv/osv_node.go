@@ -1,8 +1,8 @@
 package osv
 
 import (
-	"github.com/emc-advanced-dev/unik/pkg/compilers"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/compilers"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 type OSvNodeCompiler struct {

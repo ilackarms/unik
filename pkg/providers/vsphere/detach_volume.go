@@ -1,9 +1,9 @@
 package vsphere
 
 import (
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/providers/virtualbox/virtualboxclient"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/providers/virtualbox/virtualboxclient"
+	"github.com/ilackarms/unik/pkg/types"
 	"path/filepath"
 	"strconv"
 )

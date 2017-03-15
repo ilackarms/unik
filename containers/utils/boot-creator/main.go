@@ -9,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	unikos "github.com/emc-advanced-dev/unik/pkg/os"
+	unikos "github.com/ilackarms/unik/pkg/os"
 	"github.com/pborman/uuid"
 )
 

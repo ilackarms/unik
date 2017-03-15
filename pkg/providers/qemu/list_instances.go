@@ -7,8 +7,8 @@ import (
 	"syscall"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func (p *QemuProvider) ListInstances() ([]*types.Instance, error) {

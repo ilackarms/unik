@@ -5,7 +5,7 @@ import (
 
 	"encoding/json"
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/unik/pkg/types"
 	"github.com/layer-x/layerx-commons/lxhttpclient"
 	"github.com/spf13/cobra"
 	"net/http"

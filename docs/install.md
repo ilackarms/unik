@@ -9,7 +9,7 @@
 ---
 #### Install
 ```
-$ git clone https://github.com/emc-advanced-dev/unik.git
+$ git clone https://github.com/ilackarms/unik.git
 $ cd unik
 $ make
 $ _build/unik

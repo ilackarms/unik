@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/config"
-	"github.com/emc-advanced-dev/unik/pkg/providers/common"
-	"github.com/emc-advanced-dev/unik/pkg/providers/vsphere/vsphereclient"
-	"github.com/emc-advanced-dev/unik/pkg/state"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/config"
+	"github.com/ilackarms/unik/pkg/providers/common"
+	"github.com/ilackarms/unik/pkg/providers/vsphere/vsphereclient"
+	"github.com/ilackarms/unik/pkg/state"
 	"time"
 )
 

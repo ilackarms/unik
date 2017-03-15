@@ -1,7 +1,7 @@
 package gcloud
 
 import (
-	"github.com/emc-advanced-dev/unik/pkg/providers"
+	"github.com/ilackarms/unik/pkg/providers"
 )
 
 func (p *GcloudProvider) GetConfig() providers.ProviderConfig {

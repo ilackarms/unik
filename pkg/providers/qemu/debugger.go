@@ -3,8 +3,8 @@ package qemu
 import (
 	"fmt"
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	unikutil "github.com/emc-advanced-dev/unik/pkg/util"
+	"github.com/ilackarms/pkg/errors"
+	unikutil "github.com/ilackarms/unik/pkg/util"
 	"net"
 	"path/filepath"
 )

@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/emc-advanced-dev/pkg/errors"
-	unikos "github.com/emc-advanced-dev/unik/pkg/os"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	unikos "github.com/ilackarms/unik/pkg/os"
+	"github.com/ilackarms/unik/pkg/types"
 )
 
 func (p *UkvmProvider) Stage(params types.StageImageParams) (_ *types.Image, err error) {

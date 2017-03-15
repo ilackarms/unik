@@ -3,9 +3,9 @@ package client
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/emc-advanced-dev/pkg/errors"
-	"github.com/emc-advanced-dev/unik/pkg/daemon"
-	"github.com/emc-advanced-dev/unik/pkg/types"
+	"github.com/ilackarms/pkg/errors"
+	"github.com/ilackarms/unik/pkg/daemon"
+	"github.com/ilackarms/unik/pkg/types"
 	"github.com/layer-x/layerx-commons/lxhttpclient"
 	"io"
 	"net/http"

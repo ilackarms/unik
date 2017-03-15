@@ -1,7 +1,7 @@
 package openstack
 
 import (
-	"github.com/emc-advanced-dev/pkg/errors"
+	"github.com/ilackarms/pkg/errors"
 )
 
 func (p *OpenstackProvider) StopInstance(id string) error {

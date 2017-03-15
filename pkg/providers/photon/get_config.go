@@ -1,7 +1,7 @@
 package photon
 
 import (
-	"github.com/emc-advanced-dev/unik/pkg/providers"
+	"github.com/ilackarms/unik/pkg/providers"
 )
 
 func (p *PhotonProvider) GetConfig() providers.ProviderConfig {
