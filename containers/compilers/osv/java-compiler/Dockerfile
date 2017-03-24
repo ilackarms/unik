@@ -4,7 +4,7 @@ RUN apt-get update -y && \
  apt-get install -y software-properties-common && \
  add-apt-repository -y ppa:openjdk-r/ppa && \
  apt-get update -y && \
- apt-get install -y qemu maven wget git openjdk-7-jdk curl && \
+ apt-get install -y qemu maven wget git openjdk-8-jdk curl && \
  apt-get install -y build-essential && \
  apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
@@ -23,7 +23,10 @@ RUN cd $GOPATH/src/github.com/cloudius-systems/capstan && ./install
 RUN capstan pull cloudius/osv-openjdk8
 
 VOLUME /project_directory
-COPY java-main-caller/target/jar-wrapper-1.0-SNAPSHOT-jar-with-dependencies.jar /program.jar
+COPY java-main-caller /java-main-caller
+RUN cd /java-main-caller && \
+    mvn package
+RUN mv /java-main-caller/target/jar-wrapper-1.0-SNAPSHOT-jar-with-dependencies.jar /program.jar
 
 #Build base jar runner
 COPY Capstanfile-jar /tmp/Capstanfile-jar

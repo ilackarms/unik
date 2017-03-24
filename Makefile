@@ -100,7 +100,7 @@ pull:
 	$(call pull_container,compilers-rump-base-xen)
 	$(call pull_container,compilers-rump-base-hw)
 	$(call pull_container,rump-debugger-qemu)
-	$(call pull_container,compilers-rump-base-common)	
+	$(call pull_container,compilers-rump-base-common)
 	docker pull euranova/ubuntu-vbox
 #------
 
@@ -185,7 +185,7 @@ compilers-rump-python3-xen: compilers-rump-go-xen
 	$(call build_container,compilers/rump/python3,$@,.xen)
 
 compilers-osv-java:
-	cd containers/compilers/osv/java-compiler/java-main-caller && mvn package
+	#cd containers/compilers/osv/java-compiler/java-main-caller && mvn package
 	cd containers/compilers/osv/java-compiler && GOOS=linux go build
 	$(call build_container,compilers/osv/java-compiler,$@,)
 	cd containers/compilers/osv/java-compiler && rm java-compiler
